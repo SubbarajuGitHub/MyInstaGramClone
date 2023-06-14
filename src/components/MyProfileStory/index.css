@@ -1,0 +1,15 @@
+.mp-story-image-large {
+    height: 78px;
+    width: 78px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .mp-story-image-large {
+        height: 56px;
+        width: 56px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}

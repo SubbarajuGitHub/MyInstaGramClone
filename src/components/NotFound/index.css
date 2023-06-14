@@ -1,0 +1,77 @@
+.page-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.not-found-image {
+    height: 150px;
+}
+
+@media screen and (max-width: 576px) {
+    .not-found-image {
+        height: 100px;
+    }
+}
+
+.not-found-heading {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    color: #262626;
+}
+
+@media screen and (max-width: 576px) {
+    .not-found-heading {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        color: #262626;
+    }
+}
+
+.not-found-paragraph {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #989898;
+    margin-top: 0px;
+    width: 501px;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .not-found-paragraph {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        color: #989898;
+        margin-top: 0px;
+        width: 312px;
+        text-align: center;
+    }
+}
+
+.not-found-button {
+    background-color: #4094ef;
+    color: white;
+    height: 48px;
+    width: 141px;
+    border-radius: 12px;
+    padding: 12px 32px 12px 32px;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 576px) {
+    .not-found-button {
+        background-color: #4094ef;
+        height: 35px;
+        width: 154px;
+        color: white;
+        font-size: 12px;
+        border-radius: 8px;
+        padding: 8px 24px 8px 24px;
+    }
+}

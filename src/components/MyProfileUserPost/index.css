@@ -1,0 +1,19 @@
+.mp-post-image-large {
+    height: 118px;
+    width: 118px;
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 576px) {
+    .mp-post-image-large {
+        height: 330px;
+        width: 330px;
+    }
+}
+
+.no-posts-yet-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}

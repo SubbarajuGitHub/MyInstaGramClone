@@ -1,0 +1,109 @@
+.login-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-image-lg {
+    height: 300px;
+}
+
+@media screen and (max-width: 992px) {
+    .login-image-lg {
+        display: none;
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instragram-heading {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.username-label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.password-label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.submit-button {
+    background-color: #4094ef;
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    border-color: transparent;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.username-input {
+    width: 200px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.password-input {
+    width: 200px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.errorMsg {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ef4444;
+}

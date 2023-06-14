@@ -1,0 +1,201 @@
+.myprofile-details-large {
+    margin-left: 150px;
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+}
+
+.trail-div {
+    width: 100%;
+}
+
+@media screen and (max-width: 567px) {
+    .myprofile-details-large {
+        margin-left: 0px;
+        margin-top: 10px;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 567px) {
+    .myprofile-details-small {
+        margin-left: 0px;
+        margin-top: 10px;
+        display: none;
+    }
+}
+
+.myprofile-profile-pic-large {
+    height: 180px;
+    width: 180px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 567px) {
+    .myprofile-profile-pic-large {
+        height: 96px;
+        width: 96px;
+        margin-left: 20px;
+        margin-right: 10px;
+        border: 50%;
+    }
+}
+
+.myprofile-username-large {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 567px) {
+    .myprofile-username-large {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0em;
+        margin-left: 25px;
+    }
+}
+
+.followers-following-posts-div-large {
+    display: flex;
+}
+
+.myprofile-top-details-large {
+    display: flex;
+    flex-direction: column;
+}
+
+.myprofile-posts-count-large {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #262626;
+    margin-top: 0px;
+}
+
+.myprofile-followers-large {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #262626;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.myprofile-following-large {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #262626;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 350;
+    margin-left: 5px;
+}
+
+.myprofile-userid-large {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #262626;
+    margin-top: 0px;
+}
+
+.myprofile-userbio-large {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    margin-top: 0px;
+}
+
+.myprofile-top-details-small {
+    display: flex;
+}
+
+.three-items {
+    display: flex;
+}
+
+.mp-postscount-small {
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+    margin-left: 5px;
+}
+
+.mp-followers-small {
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+    margin-left: 5px;
+}
+
+.mp-following-small {
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+    margin-left: 5px;
+}
+
+.posts-small {
+    margin-top: 8px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.followers-small {
+    margin-top: 8px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.two-div-small {
+    margin-right: 15px;
+}
+
+.following-small {
+    margin-top: 8px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.userid-small-mp {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+    margin-left: 25px;
+}
+
+.userbio-small-mp {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #262626;
+    margin-left: 25px;
+}

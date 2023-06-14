@@ -1,0 +1,54 @@
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.slick-container {
+    width: 75%;
+}
+
+.logo-image {
+    height: 60px;
+    width: 60px;
+    margin: 0px;
+    border-radius: 50%;
+}
+
+.slick-prev:before {
+    color: black;
+}
+
+.slick-next:before {
+    color: black;
+}
+
+.username {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+.slick-item {
+    width: 150px;
+    padding-left: 30px;
+}
+
+.react-slicker-loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
