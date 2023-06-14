@@ -7,9 +7,10 @@ class Home extends Component {
     render() {
         return (
             <>
+                <ReactSlick />
                 <Header />
                 <Posts />
-                <ReactSlick />
+
             </>
         )
     }

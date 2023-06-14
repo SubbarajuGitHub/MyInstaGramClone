@@ -14,7 +14,7 @@
 }
 
 .mp-unordered-list-posts-sm-lg {
-    padding-left: 0px;
+    padding-left: 160px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -22,12 +22,22 @@
 
 @media screen and (min-width: 576px) {
     .mp-unordered-list-posts-sm-lg {
-        margin-left: 160px;
+        margin-left: 10px;
         display: flex;
         flex-wrap: wrap;
-        width: 800%;
+        width: 100vw;
+
     }
 }
+
+.mp-unordered-list-posts-sm-lg,
+.mp-unordered-list-posts-sm-lg * {
+    box-sizing: border-box;
+}
+
+
+
+
 
 .posts-grid-div {
     margin-left: 25px;
@@ -59,4 +69,8 @@
         color: #262626;
         margin-left: 10px;
     }
+}
+
+.myprofile-main-bg {
+    max-width: 100vw;
 }

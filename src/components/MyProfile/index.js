@@ -74,7 +74,7 @@ class MyProfile extends Component {
         } = this.state
         const postsLength = myProfilePostsList.length
         return (
-            <>
+            <div className='myprofile-main-bg'>
                 <Header />
                 <MyProfileDetailPost myProfileListData={myProfileListData} />
                 <ul className="mp-unordered-list">
@@ -95,7 +95,7 @@ class MyProfile extends Component {
                         />
                     ))}
                 </ul>
-            </>
+            </div>
         )
     }
 }
